@@ -12,7 +12,7 @@ Publish these files at the repository root. In GitHub Settings → Pages select 
 
 ## Update
 
-Edit `content.js` for the structured rules, operational guidelines, open questions and test schema. `app.js` renders the UI; the tests list contains one user-confirmed Turkey GEO-exclusion test. Records render automatically using `title`, `sub2` (nullable until verified), `social`, `account` (string preserving zeros), `creative`, `catalog`, `scheduled`, `started` (actual date, nullable), `hypothesis`, `exclusions` (array), `comparison`, `result` and `status`. Naming documentation is separate in `naming`. Never add hypothetical campaigns as real tests. Current version: 0.2, October 25, 2026.
+Edit `content.js` for the structured rules, operational guidelines, open questions and test schema. `app.js` renders the UI; the tests list contains one user-confirmed Turkey GEO-exclusion test. Records render automatically using `title`, `sub2` (nullable until verified), `social`, `account` (string preserving zeros), `creative`, `catalog`, `scheduled`, `started` (actual date, nullable), `hypothesis`, `exclusions` (array), `comparison`, `result` and `status`. Naming documentation is separate in `naming`. Same-campaign ad comparison rules are in `comparison`; the planned private snapshot concept is in `history` (no actual snapshot data or automatic collection). Never add hypothetical campaigns as real tests. Current version: 0.3, October 25, 2026.
 
 The download button exports the complete knowledge data as JSON. Navigation is hash-based for static hosting and browser Back/Forward. Search filters the ProCaps TR rules locally. No data is sent anywhere.
 
